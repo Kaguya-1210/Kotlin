@@ -24,16 +24,44 @@ fun main() {
     官网练习
     使用表达式更新以下程序，以便在您输入游戏控制台按钮的名称时打印相应的操作。when
      */
-    val button = "B1"
+//    val button = "B1"
+//
+//    println(
+//        // Write your code here
+//        when (button) {
+//            "A" -> "Yes"
+//            "B" -> "No"
+//            "X" -> "Menu"
+//            "Y" -> "Nothing"
+//            else -> "There is no such button"
+//        }
+//    )
+    /*
+    官网练习
+    您有一个程序，该程序会计算披萨片的数量，直到有一整个披萨有 8 片。以两种方式重构此程序：
 
-    println(
-        // Write your code here
-        when (button) {
-            "A" -> "Yes"
-            "B" -> "No"
-            "X" -> "Menu"
-            "Y" -> "Nothing"
-            else -> "There is no such button"
-        }
-    )
+使用循环。while
+
+使用循环。do-while
+     */
+    var pizzaSlices = 0
+    // Start refactoring here
+    pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza :(")
+    pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza :(")
+    pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza :(")
+    pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza :(")
+    pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza :(")
+    pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza :(")
+    pizzaSlices++
+    println("There's only $pizzaSlices slice/s of pizza :(")
+    pizzaSlices++
+    // End refactoring here
+    println("There are $pizzaSlices slices of pizza. Hooray! We have a whole pizza! :D")
+
 }
